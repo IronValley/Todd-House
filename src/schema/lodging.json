@@ -1,0 +1,40 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BedAndBreakfast",
+  "name": "The Todd House",
+  "alternateName": "The Todd House: A Victorian Bed & Breakfast",
+  "description": "A fully restored 1873 French Second Empire Victorian bed and breakfast in downtown Beaver, Pennsylvania.",
+  "url": "https://www.toddhouse.net/",
+  "telephone": "+1-724-305-2797",
+  "email": "jimandlinda425@comcast.net",
+  "foundingDate": "1987",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "330 Third Street",
+    "addressLocality": "Beaver",
+    "addressRegion": "PA",
+    "postalCode": "15009",
+    "addressCountry": "US"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 40.69758, "longitude": -80.30009 },
+  "priceRange": "$120-$130",
+  "paymentAccepted": "Cash, Check, Visa, MasterCard, American Express, Discover, Gift Certificates",
+  "checkinTime": "13:00",
+  "checkoutTime": "11:00",
+  "petsAllowed": false,
+  "smokingAllowed": false,
+  "numberOfRooms": 6,
+  "amenityFeature": [
+    { "@type": "LocationFeatureSpecification", "name": "Free Wi-Fi", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Home-cooked breakfast included", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Free parking", "value": true }
+  ],
+  "sameAs": ["https://facebook.com/people/The-Todd-House-A-Victorian-Bed-Breakfast/100063595628905/"],
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "08:00",
+    "closes": "22:00",
+    "description": "Reservation line hours"
+  }
+}

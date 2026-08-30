@@ -1,0 +1,328 @@
+<!--meta
+title: The Todd House · A Victorian Bed & Breakfast · Beaver, PA
+description: A fully restored 1873 French Second Empire Victorian in downtown Beaver, Pennsylvania. Six guest rooms, a home-cooked breakfast, and 37 years of gracious hospitality from Jim and Linda Todd.
+image: hero-parlor
+nav: home
+schema: lodging.json
+-->
+
+<!-- ============================ HERO ============================ -->
+<section class="hero">
+  <div class="hero__media">
+    <picture>
+      <source srcset="assets/img/hero-parlor.webp" type="image/webp">
+      <img src="assets/img/hero-parlor.jpg" alt="The parlor at The Todd House, with a lit fireplace, red velvet Victorian furniture and a curved bay window" fetchpriority="high" width="1500" height="1000">
+    </picture>
+  </div>
+  <div class="wrap hero__inner">
+    <span class="eyebrow">Downtown Beaver, Pennsylvania</span>
+    <h1>The Todd House</h1>
+    <p class="hero__sub">A Victorian Bed &amp; Breakfast</p>
+    <p class="hero__text">Step into a slice of history — a fully restored 1873 French Second Empire Victorian, where old-world charm keeps company with modern comfort.</p>
+    <div class="hero__actions">
+      <a class="btn" href="https://guest.rezstream.com/search/the-todd-house" target="_blank" rel="noopener">Book Your Stay</a>
+      <a class="btn btn--ghost-light" href="rooms.html">Explore the Rooms</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ BOOKING BAR ============================ -->
+<section class="section--tight" style="padding-block:0">
+  <div class="wrap" style="margin-top:-3.5rem;position:relative;z-index:5">
+    <form class="booking" action="https://guest.rezstream.com/search/the-todd-house" method="get" target="_blank" rel="noopener">
+      <div class="field">
+        <label for="arrive">Arrive</label>
+        <input type="date" id="arrive" name="arrive">
+      </div>
+      <div class="field">
+        <label for="depart">Depart</label>
+        <input type="date" id="depart" name="depart">
+      </div>
+      <div class="field">
+        <label for="guests">Guests</label>
+        <select id="guests" name="guests">
+          <option>1 guest</option>
+          <option selected>2 guests</option>
+          <option>3 guests</option>
+          <option>4 guests</option>
+          <option>5 or more</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="check" style="visibility:hidden">Search</label>
+        <button class="btn" id="check" type="submit">Check Availability</button>
+      </div>
+    </form>
+    <p class="form__note center" style="margin-top:1rem">
+      Staying within 48 hours? Please call <a href="tel:+17243052797" style="color:var(--gold)">(724) 305-2797</a> — online booking is unavailable for same-week arrivals.
+    </p>
+  </div>
+</section>
+
+<!-- ============================ WELCOME ============================ -->
+<section class="section">
+  <div class="wrap split split--40-60">
+    <div class="split__media reveal">
+      <picture>
+        <source srcset="assets/img/music-room.webp" type="image/webp">
+        <img src="assets/img/music-room.jpg" alt="The music room at The Todd House, with a pump organ, red velvet chairs and ornate Victorian furnishings" width="1125" height="1500" loading="lazy">
+      </picture>
+    </div>
+    <div class="reveal" data-delay="1">
+      <span class="eyebrow">Welcome</span>
+      <h2>A living piece of Beaver's rich past</h2>
+      <div class="stack">
+        <p class="dropcap">Step into a slice of history at The Todd House, a fully restored French Second Empire Victorian gem built in 1873. We're not just another place to rest your head — we're a living, breathing piece of Beaver's past, recognized by the Historic Beaver Association for our meticulous restoration.</p>
+        <p>With 37 years of innkeeping behind us, we've perfected the art of blending old-world charm with modern comfort. As a local, family-owned establishment, we take immense pride in our quality of service and our commitment to this community.</p>
+        <p>Everything we serve is sourced locally in Beaver, giving you a true taste of our town. From the moment you walk through our doors, you'll be wrapped in the warmth of our hospitality and the comfort of our spacious, well-appointed bedrooms.</p>
+      </div>
+      <p class="signature">— Jim &amp; Linda Todd, your hosts</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ FEATURES ============================ -->
+<section class="section section--taupe section--tight">
+  <div class="wrap">
+    <div class="center" style="margin-bottom:clamp(2.5rem,5vw,3.5rem)">
+      <span class="eyebrow">Why guests return</span>
+    </div>
+    <div class="features">
+      <div class="feature reveal">
+        <span class="feature__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M3 21h18M5 21V8l7-5 7 5v13M9 21v-6h6v6"/></svg></span>
+        <h3>Built in 1873</h3>
+      </div>
+      <div class="feature reveal" data-delay="1">
+        <span class="feature__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M4 18h13a4 4 0 0 0 0-8H4v8zM17 10h1.5a2.5 2.5 0 0 1 0 5H17M6 6V4M10 6V4M14 6V4M3 21h16"/></svg></span>
+        <h3>Home-cooked breakfast</h3>
+      </div>
+      <div class="feature reveal" data-delay="2">
+        <span class="feature__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M3 18v-5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v5M3 18h18M3 18v2M21 18v2M6 11V8a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v3"/></svg></span>
+        <h3>Six guest rooms</h3>
+      </div>
+      <div class="feature reveal" data-delay="3">
+        <span class="feature__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M2 8.5a15 15 0 0 1 20 0M5 12a10 10 0 0 1 14 0M8.5 15.5a5 5 0 0 1 7 0"/><circle cx="12" cy="19" r="1"/></svg></span>
+        <h3>Free Wi-Fi throughout</h3>
+      </div>
+      <div class="feature reveal" data-delay="4">
+        <span class="feature__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+        <h3>Open 24/7</h3>
+      </div>
+      <div class="feature reveal" data-delay="5">
+        <span class="feature__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 3l2.4 5.6L20 9.3l-4 4 1 5.7-5-2.9-5 2.9 1-5.7-4-4 5.6-.7z"/></svg></span>
+        <h3>Recognised restoration</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ ROOMS ============================ -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Accommodations</span>
+      <h2>Six rooms, each its own chapter</h2>
+      <p class="lede">Three suites with private baths, and three charming rooms that share two of the loveliest bathrooms in Beaver County. Every stay includes breakfast.</p>
+    </div>
+
+    <div class="cards" style="margin-top:clamp(2.5rem,5vw,4rem)">
+      <article class="card reveal">
+        <div class="card__media">
+          <span class="card__tag">Suite &middot; Private bath</span>
+          <picture>
+            <source srcset="assets/img/room-family-suite.webp" type="image/webp">
+            <img src="assets/img/room-family-suite.jpg" alt="The Family Suite, with two beds dressed in floral bedding, a writing desk and blue walls" width="1272" height="954" loading="lazy">
+          </picture>
+        </div>
+        <div class="card__body">
+          <h3>The Family Suite</h3>
+          <p class="card__meta">First floor &middot; Sleeps 4</p>
+          <p>Room enough for the whole party, with a large bath and a tub-and-shower to unwind in after a day of exploring.</p>
+          <div class="card__foot">
+            <span class="card__price">$130 <span>double occupancy</span></span>
+            <a class="link-arrow" href="rooms.html#family-suite">Details
+              <svg width="14" height="10" viewBox="0 0 14 10" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M1 5h11M8.5 1.5L12 5l-3.5 3.5"/></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-delay="1">
+        <div class="card__media">
+          <span class="card__tag">Suite &middot; Private bath</span>
+          <picture>
+            <source srcset="assets/img/room-grand-dutchess.webp" type="image/webp">
+            <img src="assets/img/room-grand-dutchess.jpg" alt="The Grand Dutchess Suite, with a canopied bed, antique dresser and sheer curtains" width="1272" height="954" loading="lazy">
+          </picture>
+        </div>
+        <div class="card__body">
+          <h3>The Grand Dutchess</h3>
+          <p class="card__meta">First floor &middot; Sleeps 2</p>
+          <p>A garden view through the window, a private bath with shower, and the quiet luxury of a room that has been welcoming guests for generations.</p>
+          <div class="card__foot">
+            <span class="card__price">$130 <span>double occupancy</span></span>
+            <a class="link-arrow" href="rooms.html#grand-dutchess">Details
+              <svg width="14" height="10" viewBox="0 0 14 10" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M1 5h11M8.5 1.5L12 5l-3.5 3.5"/></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-delay="2">
+        <div class="card__media">
+          <span class="card__tag">Suite &middot; Private bath</span>
+          <picture>
+            <source srcset="assets/img/room-garnet.webp" type="image/webp">
+            <img src="assets/img/room-garnet.jpg" alt="The Garnet Suite, with deep red floral wallpaper, a fireplace and antique furnishings" width="1500" height="1125" loading="lazy">
+          </picture>
+        </div>
+        <div class="card__body">
+          <h3>The Garnet Suite</h3>
+          <p class="card__meta">Second floor &middot; Sleeps 2 &middot; Fireplace</p>
+          <p>A queen bed, a cosy fireplace, and a spacious bath with a claw-foot tub and shower. Our most romantic retreat.</p>
+          <div class="card__foot">
+            <span class="card__price">$130 <span>double occupancy</span></span>
+            <a class="link-arrow" href="rooms.html#garnet-suite">Details
+              <svg width="14" height="10" viewBox="0 0 14 10" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M1 5h11M8.5 1.5L12 5l-3.5 3.5"/></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="center" style="margin-top:clamp(2.5rem,5vw,3.5rem)">
+      <a class="btn btn--ghost" href="rooms.html">View all rooms &amp; rates</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ BREAKFAST ============================ -->
+<section class="section section--navy">
+  <div class="wrap split split--60-40 split--reverse">
+    <div class="split__media framed reveal">
+      <picture>
+        <source srcset="assets/img/dining-room.webp" type="image/webp">
+        <img src="assets/img/dining-room.jpg" alt="The dining room laid for breakfast, with formal china, a chandelier and a marble fireplace" width="1500" height="1125" loading="lazy">
+      </picture>
+    </div>
+    <div class="reveal" data-delay="1">
+      <span class="eyebrow">The morning ritual</span>
+      <h2>Breakfast, and the table it's served on</h2>
+      <div class="stack">
+        <p>Every morning begins with a home-cooked breakfast, traditional and American, prepared with ingredients sourced from local Beaver purveyors and served on formal china beneath the dining-room chandelier.</p>
+        <p>There is no dress code. Come as you are, sit with the other guests, and let the day start slowly.</p>
+      </div>
+      <ul class="checklist" style="margin-top:2rem">
+        <li>Locally sourced ingredients from our Beaver neighbors</li>
+        <li>Served in the historic dining room, seating up to ten</li>
+        <li>Dietary needs gladly accommodated — just let us know</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ THE HOUSE ============================ -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow">The common rooms</span>
+      <h2>The whole house is yours</h2>
+      <p class="lede">A parlor and antiquarian library, a music room with a pump organ and player piano, a butler's pantry of Victorian curiosities, a game room, a walled courtyard and a wraparound porch.</p>
+    </div>
+
+    <div class="cards" style="margin-top:clamp(2.5rem,5vw,4rem)">
+      <article class="card reveal">
+        <div class="card__media">
+          <picture>
+            <source srcset="assets/img/parlor.webp" type="image/webp">
+            <img src="assets/img/parlor.jpg" alt="The parlor and library, with a marble gold-inlaid fireplace, bay windows and antique furniture" width="1500" height="1000" loading="lazy">
+          </picture>
+        </div>
+        <div class="card__body">
+          <h3>Parlor &amp; Library</h3>
+          <p>A marble gold-inlaid fireplace, a tall secretary, bay windows and shelves of antiquarian books.</p>
+        </div>
+      </article>
+      <article class="card reveal" data-delay="1">
+        <div class="card__media">
+          <picture>
+            <source srcset="assets/img/music-room.webp" type="image/webp">
+            <img src="assets/img/music-room.jpg" alt="The music room, with a pump organ, red velvet chairs and ornate Victorian furnishings" width="1125" height="1500" loading="lazy">
+          </picture>
+        </div>
+        <div class="card__body">
+          <h3>The Music Room</h3>
+          <p>Player piano, pump organ and victrola, framed by intricate crown molding and a fireplace.</p>
+        </div>
+      </article>
+      <article class="card reveal" data-delay="2">
+        <div class="card__media">
+          <picture>
+            <source srcset="assets/img/courtyard.webp" type="image/webp">
+            <img src="assets/img/courtyard.jpg" alt="Guests seated at umbrella-shaded tables in the brick courtyard" width="1500" height="729" loading="lazy">
+          </picture>
+        </div>
+        <div class="card__body">
+          <h3>The Courtyard</h3>
+          <p>A hand-laid brick patio, five shaded tables and a border of ivy and ferns.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="center" style="margin-top:clamp(2.5rem,5vw,3.5rem)">
+      <a class="btn btn--ghost" href="house.html">Tour the house</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ QUOTE ============================ -->
+<section class="section section--paper section--tight">
+  <div class="wrap quote reveal">
+    <div class="fleuron" aria-hidden="true"><span>&#10022;</span></div>
+    <blockquote>&ldquo;Too much is not enough.&rdquo;</blockquote>
+    <cite>The motto of our entrance hall</cite>
+  </div>
+</section>
+
+<!-- ============================ THE AREA ============================ -->
+<section class="section">
+  <div class="wrap split split--60-40">
+    <div class="reveal">
+      <span class="eyebrow">The region</span>
+      <h2>Your gateway to Beaver</h2>
+      <div class="stack">
+        <p>We sit in the heart of downtown Beaver, at the confluence of two rivers. Restaurants, shops and the Merrick Art Gallery are an easy walk from the front porch, and the parks are a short stroll further.</p>
+      </div>
+      <ul class="checklist" style="margin-top:2rem">
+        <li><strong>Two blocks</strong> to the genealogy centre</li>
+        <li><strong>22 miles</strong> to Pittsburgh International Airport</li>
+        <li><strong>34 miles</strong> to downtown Pittsburgh</li>
+        <li>Walking distance to restaurants, parks and river fishing</li>
+      </ul>
+      <p style="margin-top:2rem">
+        <a class="link-arrow" href="about.html#faqs">More about the area
+          <svg width="14" height="10" viewBox="0 0 14 10" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M1 5h11M8.5 1.5L12 5l-3.5 3.5"/></svg>
+        </a>
+      </p>
+    </div>
+    <div class="split__media reveal" data-delay="1">
+      <picture>
+        <source srcset="assets/img/front-porch.webp" type="image/webp">
+        <img src="assets/img/front-porch.jpg" alt="Guests gathered in costume on the front porch of The Todd House in autumn" width="1125" height="1500" loading="lazy">
+      </picture>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CTA ============================ -->
+<section class="section section--navy cta-band">
+  <div class="wrap reveal">
+    <span class="eyebrow">Begin your stay</span>
+    <h2>Your historic getaway awaits</h2>
+    <p class="lede" style="max-width:38rem;margin-inline:auto">Call Jim and Linda Todd, or reserve online. We look forward to welcoming you to The Todd House.</p>
+    <div class="btns">
+      <a class="btn" href="https://guest.rezstream.com/search/the-todd-house" target="_blank" rel="noopener">Book Now</a>
+      <a class="btn btn--ghost-light" href="tel:+17243052797">(724) 305-2797</a>
+    </div>
+  </div>
+</section>

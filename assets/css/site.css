@@ -197,7 +197,13 @@ p:last-child { margin-bottom: 0; }
 .topbar a { color: var(--gold-light); text-decoration: none; }
 .topbar a:hover { color: var(--cream); }
 .topbar__sep { opacity: .3; }
-@media (max-width: 640px) { .topbar__sep { display: none; } }
+/* On phones the address and hours wrap to three lines and push the hero
+   down. Keep only the phone number: the address is in the footer, and the
+   header CALL button and sticky bar cover the rest. */
+@media (max-width: 700px) {
+  .topbar__sep, .topbar__detail { display: none; }
+  .topbar__in { min-height: 34px; gap: 0; }
+}
 
 .site-header {
   position: sticky; top: 0; z-index: 60;
@@ -322,7 +328,11 @@ body.nav-open { overflow: hidden; }
    ========================================================================== */
 .hero {
   position: relative;
-  min-height: clamp(560px, 88vh, 900px);
+  /* Tall enough that the booking card below — which is pulled up to overlap
+     the photo — clears the fold instead of peeking in as a stray form field.
+     svh keeps it honest on mobile browsers with retracting toolbars. */
+  min-height: max(560px, 100vh);
+  min-height: max(560px, 100svh);
   display: grid; align-items: center;
   isolation: isolate;
   overflow: hidden;
